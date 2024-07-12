@@ -1,0 +1,29 @@
+#gameboard {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 600px;
+justify-content: center;
+
+}
+
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+    font-size: 80px;
+   
+}
+
+#controls, #Game_over {
+    text-align: center;
+    margin: 60px, 0;
+}
